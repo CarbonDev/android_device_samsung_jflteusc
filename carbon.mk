@@ -1,7 +1,7 @@
 $(call inherit-product, device/samsung/jflteusc/full_jflteusc.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/carbon/config/cdma.mk)
+$(call inherit-product, vendor/carbon/config/common_cdma.mk)
 
 # Enhanced NFC
 #$(call inherit-product, vendor/carbon/config/nfc_enhanced.mk)
